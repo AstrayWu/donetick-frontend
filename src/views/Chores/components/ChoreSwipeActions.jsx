@@ -52,7 +52,7 @@ const SwipeActionTile = ({
   <Box
     sx={{
       display: 'flex',
-      minWidth: 76,
+      minWidth: 64,
       height: '100%',
       ...(offsetTop && { mt: PLAIN_CARD_OFFSET }),
     }}
@@ -67,7 +67,7 @@ const SwipeActionTile = ({
         gap: 0.5,
         bgcolor,
         color,
-        px: 2,
+        px: 1,
       }}
     >
       <Box sx={{ display: 'flex', '& svg': { fontSize: 22 } }}>{icon}</Box>
