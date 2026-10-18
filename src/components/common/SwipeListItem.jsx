@@ -7,7 +7,7 @@ import { hapticLight } from '../../utils/Haptics'
 // The point past which releasing commits the full-swipe action. Exported so
 // the lists that own the gesture and the haptic that announces it can't drift
 // apart — pass it as the SwipeableList `threshold`.
-export const SWIPE_COMMIT_THRESHOLD = 0.8
+export const SWIPE_COMMIT_THRESHOLD = 0.65  // dsh: 与 chore 行一致，见 ChoreSwipeableItem.jsx
 const COMMIT_PROGRESS = SWIPE_COMMIT_THRESHOLD * 100
 
 /**
